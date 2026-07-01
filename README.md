@@ -9,3 +9,7 @@ A small but growing collection of Linux debugging notes, analysis, and technical
 📝 Some notes may be simple.  
 🔍 Some may go deep.  
 👀 Some may involve staring at command output until it finally confesses.
+
+_________________________
+
+- [Hung Task Panic from Frozen Filesystem Analysis](https://github.com/Swansonite/linux-debugging/blob/main/hung-task-panic-from-frozen-filesystem-analysis.md)
