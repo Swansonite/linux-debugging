@@ -1742,7 +1742,7 @@ crash> dis -rl ffffffff8925161c | tail -n6
 
 ### Unwinding the stack
 
-Looking at the entry of `percpu_rwsem_wait`, the very first thing it does is preserve `%rbx` on its own stack frame:
+Looking at the entry of `percpu_rwsem_wait`, one of the very first things it does is push `%rbx` on its own stack frame:
 
 ```
  #2 [ffffce0680ecba48] percpu_rwsem_wait at ffffffff885e948f
