@@ -151,7 +151,7 @@ crash> < xfs-input | grep -i vda2
 
 ```
 
-This time, `crash` hangs. No output is displayed, and the interactive prompt does not return. Pressing `Ctrl-C` (`^C`) is required to interrupt the stuck command and regain control.
+⚠️⚠️⚠️ This time, `crash` hangs. No output is displayed, and the interactive prompt does not return. Pressing `Ctrl-C` (`^C`) is required to interrupt the stuck command and regain control. 
 
 The difference between the working and failing tests is the **additional outer pipe (`|`)**.
 
