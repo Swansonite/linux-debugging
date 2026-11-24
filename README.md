@@ -13,3 +13,4 @@ A small but growing collection of Linux debugging notes, analysis, and technical
 _________________________
 
 - [Hung Task Panic from Frozen Filesystem Analysis](https://github.com/Swansonite/linux-debugging/blob/main/hung-task-panic-from-frozen-filesystem-analysis.md)
+- [Crash Utility -- Input-File Pipe Regression](./crash/crash-input-file-pipe-regression.md)
